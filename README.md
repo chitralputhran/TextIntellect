@@ -1,7 +1,7 @@
 # 🔎 TextIntellect AI | Text File Search
 
 ## Description
-This web application processes text files convert them into embeddings using OpenAI's embedding and stores them in Chroma DB. It's built using Python 3.9 and Streamlit and offers a user-friendly interface for text file processing.
+This web application processes text files convert them into embeddings using OpenAIEmbeddings and stores them in Chroma DB. It's built using Python 3.9 and Streamlit and offers a user-friendly interface for text file processing.
 
 ## Features
 - Text file upload and processing
