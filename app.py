@@ -31,7 +31,7 @@ def api_key_check(openai_api_key):
 def load_instructions():
     with st.sidebar:  
       st.divider()   
-      st.write('*Your Research AI Adventure begins with a Text file.*')
+      st.write('*Your TextIntellect AI Adventure begins with a Text file.*')
       st.caption('''**That's why I'd love for you to upload a Text file. 
                  Once we have your file, we'll understand it and start exploring it.
                   Then, we'll work together to answer whatever questions you have.
