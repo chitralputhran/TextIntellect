@@ -13,16 +13,22 @@ This application is a type of Retrieval-Augmented Generation (RAG) system, where
 - **Streamlit UI:** User-friendly interface built using Streamlit.
 - **LangChain Backend:** Backend powered by the LangChain framework for handling embedding and query logic.
 
+## How It Works
+- **Upload a Text File:** Simply upload any text-based file.
+- **Text Processing:** The application processes the contents by creating vector embeddings.
+- **Ask Questions:** Once embeddings are generated, users can interactively ask questions related to the file content.
+- **Retrieve Answers:** The application uses the embeddings to retrieve the most relevant information and generate responses to the user's queries.  
+
 ## Screenshot 
 ![Screen_1](https://github.com/chitralputhran/TextIntellect/assets/31520972/70b4fd84-2183-48f7-a43a-bca9de8db987)
 
+## Technologies Used
+- **Streamlit:** For building an intuitive user interface.
+- **LangChain:** As the backbone for managing text embeddings and retrieval.
+- **ChromaDB:** For embedding storage and fast, efficient querying.
+- **Python:** Core programming language.
 
 ## Installation
-
-### Prerequisites
-- Python 3.9
-- Streamlit
-- Langchain
 
 ### Setup
 Clone the repository:
